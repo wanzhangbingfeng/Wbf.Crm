@@ -1,0 +1,1 @@
+[{"Key":"7a12ba25-5271-4024-92a5-ee29748e3649","HttpPrefix":"https://","AuthType":"Office365","Server":"honordev.crm5.dynamics.com","Port":"443","OrgName":"","UserName":"crmdev@hihonor.onmicrosoft.com","Domain":"","Password":"honor@dev123","HasKey":true,"FullServer":"https://honordev.crm5.dynamics.com443"}]

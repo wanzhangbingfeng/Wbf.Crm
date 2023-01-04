@@ -1,0 +1,15 @@
+F:\Solution\Wbf.Crm\Wbf.Crm.Tool\bin\Debug\Wbf.Crm.Tool.exe.config
+F:\Solution\Wbf.Crm\Wbf.Crm.Tool\bin\Debug\Wbf.Crm.Tool.exe
+F:\Solution\Wbf.Crm\Wbf.Crm.Tool\bin\Debug\Wbf.Crm.Tool.pdb
+F:\Solution\Wbf.Crm\Wbf.Crm.Tool\obj\Debug\Wbf.Crm.Tool.Form1.resources
+F:\Solution\Wbf.Crm\Wbf.Crm.Tool\obj\Debug\Wbf.Crm.Tool.Properties.Resources.resources
+F:\Solution\Wbf.Crm\Wbf.Crm.Tool\obj\Debug\Wbf.Crm.Tool.csproj.GenerateResource.cache
+F:\Solution\Wbf.Crm\Wbf.Crm.Tool\obj\Debug\Wbf.Crm.Tool.csproj.CoreCompileInputs.cache
+F:\Solution\Wbf.Crm\Wbf.Crm.Tool\obj\Debug\Wbf.Crm.Tool.exe
+F:\Solution\Wbf.Crm\Wbf.Crm.Tool\obj\Debug\Wbf.Crm.Tool.pdb
+F:\Solution\Wbf.Crm\Wbf.Crm.Tool\bin\Debug\ILMerge.exe
+F:\Solution\Wbf.Crm\Wbf.Crm.Tool\obj\Debug\Wbf.Crm.Tool.csproj.AssemblyReference.cache
+F:\Solution\Wbf.Crm\Wbf.Crm.Tool\obj\Debug\Wbf.Crm.Tool.ConnectionForm.resources
+F:\Solution\Wbf.Crm\Wbf.Crm.Tool\bin\Debug\Newtonsoft.Json.dll
+F:\Solution\Wbf.Crm\Wbf.Crm.Tool\bin\Debug\Newtonsoft.Json.xml
+F:\Solution\Wbf.Crm\Wbf.Crm.Tool\obj\Debug\Wbf.Crm.Tool.csproj.CopyComplete

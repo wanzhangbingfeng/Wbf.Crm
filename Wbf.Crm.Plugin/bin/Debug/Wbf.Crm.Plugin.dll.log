@@ -1,0 +1,378 @@
+ILMerge version 2.14.1208.65535
+Copyright (C) Microsoft Corporation 2004-2006. All rights reserved.
+ILMerge -lib=F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug -target=library -out=E:\CRMTool\插件合并工具\ILMergeOutput\Wbf.Crm.Plugin.dll -log=F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Wbf.Crm.Plugin.dll.log -keyfile=F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\wbf.snk -targetplatform=v4 /copyattrs /keepFirst F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Wbf.Crm.Plugin.dll F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Wbf.Crm.Common.dll F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Newtonsoft.Json.dll 
+Set platform to 'v4', using directory 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\..\v4.0.30319' for mscorlib.dll
+Running on Microsoft (R) .NET Framework v4.0.30319
+mscorlib.dll version = 4.0.0.0
+The list of input assemblies is:
+	F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Wbf.Crm.Plugin.dll
+	F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Wbf.Crm.Common.dll
+	F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Newtonsoft.Json.dll
+Trying to read assembly from the file 'F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Wbf.Crm.Plugin.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Wbf.Crm.Plugin's metadata.
+Trying to read assembly from the file 'F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Wbf.Crm.Common.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Wbf.Crm.Common's metadata.
+Trying to read assembly from the file 'F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Newtonsoft.Json.dll'.
+Can not find PDB file. Debug info will not be available for assembly 'F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Newtonsoft.Json.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Newtonsoft.Json's metadata.
+Checking to see that all of the input assemblies have a compatible PeKind.
+	Wbf.Crm.Plugin.PeKind = ILonly
+	Wbf.Crm.Common.PeKind = ILonly
+	Newtonsoft.Json.PeKind = ILonly
+All input assemblies have a compatible PeKind value.
+AssemblyResolver: Assembly 'Wbf.Crm.Plugin' is referencing assembly 'Microsoft.Xrm.Sdk'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'Microsoft.Xrm.Sdk'.
+Resolved assembly reference 'Microsoft.Xrm.Sdk' to 'F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Microsoft.Xrm.Sdk.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'Microsoft.Xrm.Sdk' is referencing assembly 'System.Runtime.Serialization'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: Did not find assembly in user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Runtime.Serialization'.
+Resolved assembly reference 'System.Runtime.Serialization' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\..\v4.0.30319\System.Runtime.Serialization.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Core'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: Did not find assembly in user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Core'.
+Resolved assembly reference 'System.Core' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\..\v4.0.30319\System.Core.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Numerics'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: Did not find assembly in user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Numerics'.
+Resolved assembly reference 'System.Numerics' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\..\v4.0.30319\System.Numerics.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Xml.Linq'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: Did not find assembly in user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Xml.Linq'.
+Resolved assembly reference 'System.Xml.Linq' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\..\v4.0.30319\System.Xml.Linq.dll'. (Used framework directory.)
+Merging assembly-level attributes from input assemblies for the target assembly.
+Merging assembly 'Wbf.Crm.Plugin' into target assembly.
+Merging assembly 'Wbf.Crm.Common' into target assembly.
+Merging assembly 'Newtonsoft.Json' into target assembly.
+Assembly level attribute 'System.Security.AllowPartiallyTrustedCallersAttribute' from assembly 'Newtonsoft.Json' being deleted from target assembly
+Copying 1 Win32 Resources from assembly 'Wbf.Crm.Plugin' into target assembly.
+ILMerge: Signing assembly with the key file 'F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\wbf.snk'.
+	There were no errors reported in the target assembly's metadata.
+ILMerge: Writing target assembly 'E:\CRMTool\插件合并工具\ILMergeOutput\Wbf.Crm.Plugin.dll'.
+AssemblyResolver: Assembly 'Microsoft.Xrm.Sdk' is referencing assembly 'System.ServiceModel'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: Did not find assembly in user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.ServiceModel'.
+Resolved assembly reference 'System.ServiceModel' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\..\v4.0.30319\System.ServiceModel.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Wbf.Crm.Common' is referencing assembly 'Microsoft.Crm.Sdk.Proxy'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'Microsoft.Crm.Sdk.Proxy'.
+Resolved assembly reference 'Microsoft.Crm.Sdk.Proxy' to 'F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'Wbf.Crm.Common' is referencing assembly 'WindowsBase'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: Did not find assembly in user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+	AssemblyResolver: Did not find assembly in framework directory.
+AssemblyResolver: Unable to resolve reference. (It still might be found, e.g., in the GAC.)
+ILMerge: Signed assembly 'E:\CRMTool\插件合并工具\ILMergeOutput\Wbf.Crm.Plugin.dll' with a strong name.
+Location for referenced assembly 'Microsoft.Xrm.Sdk' is 'F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Microsoft.Xrm.Sdk.dll'
+	There were no errors reported in  Microsoft.Xrm.Sdk's metadata.
+Location for referenced assembly 'mscorlib' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll'
+	There were no errors reported in  mscorlib's metadata.
+Location for referenced assembly 'System.Core' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Core.dll'
+	There were no errors reported in  System.Core's metadata.
+Location for referenced assembly 'Microsoft.Crm.Sdk.Proxy' is 'F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll'
+	There were no errors reported in  Microsoft.Crm.Sdk.Proxy's metadata.
+Location for referenced assembly 'WindowsBase' is 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\WindowsBase\v4.0_4.0.0.0__31bf3856ad364e35\WindowsBase.dll'
+	There were no errors reported in  WindowsBase's metadata.
+Location for referenced assembly 'System' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\system.dll'
+	There were no errors reported in  System's metadata.
+Location for referenced assembly 'System.Numerics' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Numerics.dll'
+	There were no errors reported in  System.Numerics's metadata.
+Location for referenced assembly 'System.Xml' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Xml.dll'
+	There were no errors reported in  System.Xml's metadata.
+Location for referenced assembly 'System.Xml.Linq' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Xml.Linq.dll'
+	There were no errors reported in  System.Xml.Linq's metadata.
+Location for referenced assembly 'System.Runtime.Serialization' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Runtime.Serialization.dll'
+	There were no errors reported in  System.Runtime.Serialization's metadata.
+Location for referenced assembly 'System.Data' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Data.dll'
+	There were no errors reported in  System.Data's metadata.
+ILMerge: Done.
+ILMerge version 2.14.1208.65535
+Copyright (C) Microsoft Corporation 2004-2006. All rights reserved.
+ILMerge -lib=F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug -target=library -out=E:\CRMTool\插件合并工具\ILMergeOutput\Wbf.Crm.Plugin.dll -log=F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Wbf.Crm.Plugin.dll.log -keyfile=F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\wbf.snk -targetplatform=v4 /copyattrs /keepFirst F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Wbf.Crm.Plugin.dll F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Wbf.Crm.Common.dll F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Newtonsoft.Json.dll 
+Set platform to 'v4', using directory 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\..\v4.0.30319' for mscorlib.dll
+Running on Microsoft (R) .NET Framework v4.0.30319
+mscorlib.dll version = 4.0.0.0
+The list of input assemblies is:
+	F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Wbf.Crm.Plugin.dll
+	F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Wbf.Crm.Common.dll
+	F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Newtonsoft.Json.dll
+Trying to read assembly from the file 'F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Wbf.Crm.Plugin.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Wbf.Crm.Plugin's metadata.
+Trying to read assembly from the file 'F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Wbf.Crm.Common.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Wbf.Crm.Common's metadata.
+Trying to read assembly from the file 'F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Newtonsoft.Json.dll'.
+Can not find PDB file. Debug info will not be available for assembly 'F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Newtonsoft.Json.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Newtonsoft.Json's metadata.
+Checking to see that all of the input assemblies have a compatible PeKind.
+	Wbf.Crm.Plugin.PeKind = ILonly
+	Wbf.Crm.Common.PeKind = ILonly
+	Newtonsoft.Json.PeKind = ILonly
+All input assemblies have a compatible PeKind value.
+AssemblyResolver: Assembly 'Wbf.Crm.Plugin' is referencing assembly 'Microsoft.Xrm.Sdk'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'Microsoft.Xrm.Sdk'.
+Resolved assembly reference 'Microsoft.Xrm.Sdk' to 'F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Microsoft.Xrm.Sdk.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'Microsoft.Xrm.Sdk' is referencing assembly 'System.Runtime.Serialization'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: Did not find assembly in user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Runtime.Serialization'.
+Resolved assembly reference 'System.Runtime.Serialization' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\..\v4.0.30319\System.Runtime.Serialization.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Core'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: Did not find assembly in user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Core'.
+Resolved assembly reference 'System.Core' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\..\v4.0.30319\System.Core.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Numerics'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: Did not find assembly in user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Numerics'.
+Resolved assembly reference 'System.Numerics' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\..\v4.0.30319\System.Numerics.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Xml.Linq'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: Did not find assembly in user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Xml.Linq'.
+Resolved assembly reference 'System.Xml.Linq' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\..\v4.0.30319\System.Xml.Linq.dll'. (Used framework directory.)
+Merging assembly-level attributes from input assemblies for the target assembly.
+Merging assembly 'Wbf.Crm.Plugin' into target assembly.
+Merging assembly 'Wbf.Crm.Common' into target assembly.
+Merging assembly 'Newtonsoft.Json' into target assembly.
+Assembly level attribute 'System.Security.AllowPartiallyTrustedCallersAttribute' from assembly 'Newtonsoft.Json' being deleted from target assembly
+Copying 1 Win32 Resources from assembly 'Wbf.Crm.Plugin' into target assembly.
+ILMerge: Signing assembly with the key file 'F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\wbf.snk'.
+	There were no errors reported in the target assembly's metadata.
+ILMerge: Writing target assembly 'E:\CRMTool\插件合并工具\ILMergeOutput\Wbf.Crm.Plugin.dll'.
+AssemblyResolver: Assembly 'Microsoft.Xrm.Sdk' is referencing assembly 'System.ServiceModel'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: Did not find assembly in user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.ServiceModel'.
+Resolved assembly reference 'System.ServiceModel' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\..\v4.0.30319\System.ServiceModel.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Wbf.Crm.Common' is referencing assembly 'Microsoft.Crm.Sdk.Proxy'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'Microsoft.Crm.Sdk.Proxy'.
+Resolved assembly reference 'Microsoft.Crm.Sdk.Proxy' to 'F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'Wbf.Crm.Common' is referencing assembly 'WindowsBase'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: Did not find assembly in user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+	AssemblyResolver: Did not find assembly in framework directory.
+AssemblyResolver: Unable to resolve reference. (It still might be found, e.g., in the GAC.)
+ILMerge: Signed assembly 'E:\CRMTool\插件合并工具\ILMergeOutput\Wbf.Crm.Plugin.dll' with a strong name.
+Location for referenced assembly 'Microsoft.Xrm.Sdk' is 'F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Microsoft.Xrm.Sdk.dll'
+	There were no errors reported in  Microsoft.Xrm.Sdk's metadata.
+Location for referenced assembly 'mscorlib' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll'
+	There were no errors reported in  mscorlib's metadata.
+Location for referenced assembly 'System.Core' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Core.dll'
+	There were no errors reported in  System.Core's metadata.
+Location for referenced assembly 'Microsoft.Crm.Sdk.Proxy' is 'F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll'
+	There were no errors reported in  Microsoft.Crm.Sdk.Proxy's metadata.
+Location for referenced assembly 'WindowsBase' is 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\WindowsBase\v4.0_4.0.0.0__31bf3856ad364e35\WindowsBase.dll'
+	There were no errors reported in  WindowsBase's metadata.
+Location for referenced assembly 'System' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\system.dll'
+	There were no errors reported in  System's metadata.
+Location for referenced assembly 'System.Numerics' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Numerics.dll'
+	There were no errors reported in  System.Numerics's metadata.
+Location for referenced assembly 'System.Xml' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Xml.dll'
+	There were no errors reported in  System.Xml's metadata.
+Location for referenced assembly 'System.Xml.Linq' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Xml.Linq.dll'
+	There were no errors reported in  System.Xml.Linq's metadata.
+Location for referenced assembly 'System.Runtime.Serialization' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Runtime.Serialization.dll'
+	There were no errors reported in  System.Runtime.Serialization's metadata.
+Location for referenced assembly 'System.Data' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Data.dll'
+	There were no errors reported in  System.Data's metadata.
+ILMerge: Done.
+ILMerge version 2.14.1208.65535
+Copyright (C) Microsoft Corporation 2004-2006. All rights reserved.
+ILMerge -lib=F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug -target=library -out=E:\CRMTool\插件合并工具\ILMergeOutput\Wbf.Crm.Plugin.dll -log=F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Wbf.Crm.Plugin.dll.log -keyfile=F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\wbf.snk -targetplatform=v4 /copyattrs /keepFirst F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Wbf.Crm.Plugin.dll F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Wbf.Crm.Common.dll F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Newtonsoft.Json.dll 
+Set platform to 'v4', using directory 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\..\v4.0.30319' for mscorlib.dll
+Running on Microsoft (R) .NET Framework v4.0.30319
+mscorlib.dll version = 4.0.0.0
+The list of input assemblies is:
+	F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Wbf.Crm.Plugin.dll
+	F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Wbf.Crm.Common.dll
+	F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Newtonsoft.Json.dll
+Trying to read assembly from the file 'F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Wbf.Crm.Plugin.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Wbf.Crm.Plugin's metadata.
+Trying to read assembly from the file 'F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Wbf.Crm.Common.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Wbf.Crm.Common's metadata.
+Trying to read assembly from the file 'F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Newtonsoft.Json.dll'.
+Can not find PDB file. Debug info will not be available for assembly 'F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Newtonsoft.Json.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Newtonsoft.Json's metadata.
+Checking to see that all of the input assemblies have a compatible PeKind.
+	Wbf.Crm.Plugin.PeKind = ILonly
+	Wbf.Crm.Common.PeKind = ILonly
+	Newtonsoft.Json.PeKind = ILonly
+All input assemblies have a compatible PeKind value.
+AssemblyResolver: Assembly 'Wbf.Crm.Plugin' is referencing assembly 'Microsoft.Xrm.Sdk'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'Microsoft.Xrm.Sdk'.
+Resolved assembly reference 'Microsoft.Xrm.Sdk' to 'F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Microsoft.Xrm.Sdk.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'Microsoft.Xrm.Sdk' is referencing assembly 'System.Runtime.Serialization'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: Did not find assembly in user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Runtime.Serialization'.
+Resolved assembly reference 'System.Runtime.Serialization' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\..\v4.0.30319\System.Runtime.Serialization.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Core'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: Did not find assembly in user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Core'.
+Resolved assembly reference 'System.Core' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\..\v4.0.30319\System.Core.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Numerics'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: Did not find assembly in user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Numerics'.
+Resolved assembly reference 'System.Numerics' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\..\v4.0.30319\System.Numerics.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Xml.Linq'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: Did not find assembly in user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Xml.Linq'.
+Resolved assembly reference 'System.Xml.Linq' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\..\v4.0.30319\System.Xml.Linq.dll'. (Used framework directory.)
+Merging assembly-level attributes from input assemblies for the target assembly.
+Merging assembly 'Wbf.Crm.Plugin' into target assembly.
+Merging assembly 'Wbf.Crm.Common' into target assembly.
+Merging assembly 'Newtonsoft.Json' into target assembly.
+Assembly level attribute 'System.Security.AllowPartiallyTrustedCallersAttribute' from assembly 'Newtonsoft.Json' being deleted from target assembly
+Copying 1 Win32 Resources from assembly 'Wbf.Crm.Plugin' into target assembly.
+ILMerge: Signing assembly with the key file 'F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\wbf.snk'.
+	There were no errors reported in the target assembly's metadata.
+ILMerge: Writing target assembly 'E:\CRMTool\插件合并工具\ILMergeOutput\Wbf.Crm.Plugin.dll'.
+AssemblyResolver: Assembly 'Microsoft.Xrm.Sdk' is referencing assembly 'System.ServiceModel'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: Did not find assembly in user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.ServiceModel'.
+Resolved assembly reference 'System.ServiceModel' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\..\v4.0.30319\System.ServiceModel.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Wbf.Crm.Common' is referencing assembly 'Microsoft.Crm.Sdk.Proxy'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'Microsoft.Crm.Sdk.Proxy'.
+Resolved assembly reference 'Microsoft.Crm.Sdk.Proxy' to 'F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'Wbf.Crm.Common' is referencing assembly 'WindowsBase'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: Did not find assembly in user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+	AssemblyResolver: Did not find assembly in framework directory.
+AssemblyResolver: Unable to resolve reference. (It still might be found, e.g., in the GAC.)
+ILMerge: Signed assembly 'E:\CRMTool\插件合并工具\ILMergeOutput\Wbf.Crm.Plugin.dll' with a strong name.
+Location for referenced assembly 'Microsoft.Xrm.Sdk' is 'F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Microsoft.Xrm.Sdk.dll'
+	There were no errors reported in  Microsoft.Xrm.Sdk's metadata.
+Location for referenced assembly 'mscorlib' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll'
+	There were no errors reported in  mscorlib's metadata.
+Location for referenced assembly 'System.Core' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Core.dll'
+	There were no errors reported in  System.Core's metadata.
+Location for referenced assembly 'Microsoft.Crm.Sdk.Proxy' is 'F:\Solution\Wbf.Crm\Wbf.Crm.Plugin\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll'
+	There were no errors reported in  Microsoft.Crm.Sdk.Proxy's metadata.
+Location for referenced assembly 'WindowsBase' is 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\WindowsBase\v4.0_4.0.0.0__31bf3856ad364e35\WindowsBase.dll'
+	There were no errors reported in  WindowsBase's metadata.
+Location for referenced assembly 'System' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\system.dll'
+	There were no errors reported in  System's metadata.
+Location for referenced assembly 'System.Numerics' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Numerics.dll'
+	There were no errors reported in  System.Numerics's metadata.
+Location for referenced assembly 'System.Xml' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Xml.dll'
+	There were no errors reported in  System.Xml's metadata.
+Location for referenced assembly 'System.Xml.Linq' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Xml.Linq.dll'
+	There were no errors reported in  System.Xml.Linq's metadata.
+Location for referenced assembly 'System.Runtime.Serialization' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Runtime.Serialization.dll'
+	There were no errors reported in  System.Runtime.Serialization's metadata.
+Location for referenced assembly 'System.Data' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Data.dll'
+	There were no errors reported in  System.Data's metadata.
+ILMerge: Done.
